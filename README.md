@@ -1,4 +1,5 @@
 # PokéStore
+asd 
 
 [![Live](https://img.shields.io/badge/live-poke--page--react.vercel.app-brightgreen?logo=vercel)](https://poke-page-react.vercel.app)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
