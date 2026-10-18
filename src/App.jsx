@@ -44,7 +44,7 @@ export default function App() {
   })
   const [cartOpen, setCartOpen] = useState(false)
 
-  // guardar el carrito para no perderlo al recargar
+  // guardar el carrito para no perderlo al recargar 1234
   useEffect(() => {
     localStorage.setItem('pokestore-cart', JSON.stringify(cart))
   }, [cart])
