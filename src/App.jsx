@@ -7,17 +7,7 @@ import { Cartas } from './pages/Cartas'
 import { Nosotros } from './pages/Nosotros'
 import { Login } from './pages/Login'
 import { MiCuenta } from './pages/MiCuenta'
-import { Productos } from './pages/Productos'
-import { Admin } from './pages/Admin'
-import { ADMIN_EMAIL } from './services/userService'
-import { products } from './data/products'
 
-function readSavedData(storage, key, initialValue) {
-  try {
-    const saved = storage.getItem(key)
-    if (saved) {
-      return JSON.parse(saved)
-    }
   } catch {
     return initialValue
   }
